@@ -1,4 +1,4 @@
-# Rest API Demo App
+# Go CRUD Rest API Demo App
 
 This is a simple CRUD application for employees data. Written in Golang with in-memory data store (database).
 
