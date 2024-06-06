@@ -3,7 +3,7 @@ package respository
 import (
 	"testing"
 
-	"github.com/iamganeshagrawal/rest_api/models"
+	"github.com/iamganeshagrawal/go-crud-api-assignment/models"
 	"github.com/stretchr/testify/assert"
 )
 

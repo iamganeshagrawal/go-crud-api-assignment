@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/iamganeshagrawal/rest_api/respository"
+	"github.com/iamganeshagrawal/go-crud-api-assignment/respository"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

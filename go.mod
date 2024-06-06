@@ -1,4 +1,4 @@
-module github.com/iamganeshagrawal/rest_api
+module github.com/iamganeshagrawal/go-crud-api-assignment
 
 go 1.21.4
 

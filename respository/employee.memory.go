@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/iamganeshagrawal/rest_api/internal/datatypes"
-	"github.com/iamganeshagrawal/rest_api/models"
+	"github.com/iamganeshagrawal/go-crud-api-assignment/internal/datatypes"
+	"github.com/iamganeshagrawal/go-crud-api-assignment/models"
 )
 
 // Ensure type implements the interface

@@ -1,7 +1,7 @@
 package respository
 
 import (
-	"github.com/iamganeshagrawal/rest_api/models"
+	"github.com/iamganeshagrawal/go-crud-api-assignment/models"
 )
 
 // IEmployeeRepository is an interface for employee repository
