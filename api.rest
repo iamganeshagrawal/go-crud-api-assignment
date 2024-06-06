@@ -1,0 +1,64 @@
+@host = http://localhost:8080
+
+### Debug: List all routes
+GET {{host}}
+
+### Get all employees (default limit 10, default page 1)
+GET {{host}}/api/v1/employees
+
+### Create new employee
+POST {{host}}/api/v1/employees
+Content-Type: application/json
+
+{
+    "name": "Ganesh Agrawal",
+    "position": "Software Engineer",
+    "salary": 9999999.00
+}
+
+### Get employee by id
+GET {{host}}/api/v1/employees/1
+
+### Update employee by id
+PUT {{host}}/api/v1/employees/1
+Content-Type: application/json
+
+{
+    "name": "Ganesh Agrawal",
+    "position": "Senior Software Engineer",
+    "salary": 19999999
+}
+
+### Delete employee by id
+DELETE {{host}}/api/v1/employees/1
+
+### Create a new employee
+POST {{host}}/api/v1/employees
+Content-Type: application/json
+
+{
+    "name": "Rakesh Agrawal",
+    "position": "Software Engineer",
+    "salary": 1245789
+}
+
+### Create a new employee with validation error
+POST {{host}}/api/v1/employees
+Content-Type: application/json
+
+{
+    "name": "Ra",
+    "position": "CA"
+}
+
+### Get all employees with pagination
+GET {{host}}/api/v1/employees?page=1
+
+### Get all employees with pagination and limit
+GET {{host}}/api/v1/employees?page=1&limit=20
+
+### Get all employees with no limit
+GET {{host}}/api/v1/employees?page=1&limit=0
+
+### Get all employees with non existing page
+GET {{host}}/api/v1/employees?page=100
